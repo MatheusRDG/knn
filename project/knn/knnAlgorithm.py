@@ -7,7 +7,7 @@ class Knn:
         distances = []
         for i in self.train:
             distances.append((calculateDistance(string,i[0]),i[2]))
-        sorted(distances)
+        distances.sort()
         n, p = 0, 0
         for i in range(k):
             try:
@@ -17,10 +17,11 @@ class Knn:
                     p+=1
             except IndexError:
                 print('Train lenght is small than k neighbors.')
+        print('positive = %d, negative = %d'%(p,n))
         if p > n:
-            print('P')
+            return('P')
         else:
-            print('N')
+            return('N')
 
 
 
