@@ -1,13 +1,16 @@
-from project.utils.Levensthein import calculateDistance
+from project.utils.EuclideanDistance import dist_euclidiana
+from project.utils.Train import Train
 class Knn:
-    def __init__(self, train = []):
+    def __init__(self, train = Train()):
         self.train = train
 
-    def predict(self, string, k): #Por conta do sort os empates na distancia serão decididos pelo segundo elemento. O algoritmo tende a N pois lexicograficamente é menor que P.
+    def predict(self, document, k):
+        freqListDoc = self.createFrequencyList(document)
         distances = []
-        for i in self.train:
-            distances.append((calculateDistance(string,i[0]),i[2]))
+        for i in self.train.data:
+            distances.append((dist_euclidiana(i[0],freqListDoc),i[1]))
         distances.sort()
+        #print(distances)
         n, p = 0, 0
         for i in range(k):
             try:
@@ -23,6 +26,13 @@ class Knn:
         else:
             return('N')
 
+    def createFrequencyList(self, document):
+        lenAllWords = len(self.train.allWords)
+        listTemp = [0] * lenAllWords
+        listAllWords = list(self.train.allWords.keys())
+        for i in range(lenAllWords):
+            listTemp[i] = document.count(listAllWords[i])
+        return listTemp
 
 
 

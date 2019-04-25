@@ -1,48 +1,63 @@
 import os
-from project.preprocess.PreProcess import preProcess
+from project.preprocess.PreProcess import prePreprocess
 
-#thread
+
 class TextExtractor:
     def __init__(self, negativeText = '../dataset/competition_SA/neg', positiveText = '../dataset/competition_SA/pos'):
         self.negativeText = negativeText
         self.positiveText = positiveText
+        self.dic = {}
 
     def extractFromDataSet (self):
 
-        #negativeExtract = threading.Thread(target=self.__negativeExtract, args=())
-        #positiveExtract = threading.Thread(target=self.__positiveExtract,args=())
-
-        #negativeExtract.start()
-        #positiveExtract.start()
-
-        #while negativeExtract.is_alive() or positiveExtract.is_alive():
-        #    time.sleep(1)
-
-        #return (negativeExtract,positiveExtract)
-
-        return self.__negativeExtract()+self.__positiveExtract()
+        return (self.__negativeExtract(),self.__positiveExtract())
 
     def __negativeExtract(self):
+
 
         negativeList = []
 
         for fileName in os.listdir(self.negativeText):
             arq = open(self.negativeText+ '/' + fileName, 'r')
-            negativeList+=(preProcess(arq.read()))
+            list = prePreprocess(arq.read())
+            negativeList.append(list)
+            for i in list:
+                try:
+                    self.dic[i]
+                except:
+                    self.dic[i] = ''
             arq.close()
 
-        return list(map(lambda k: (k[0],k[1],'N'), [j for i in negativeList for j in i]))
+
+        return negativeList
+
 
     def __positiveExtract(self):
 
         positiveList = []
 
         for fileName in os.listdir(self.positiveText):
-            arq = open(self.positiveText+ '/' + fileName, 'r')
-            positiveList+=(preProcess(arq.read())) #To separe in files -> positiveList.append(preProcess(arq.read()))
+            arq = open(self.positiveText + '/' + fileName, 'r')
+            list = prePreprocess(arq.read())
+            positiveList.append(list)
+            for i in list:
+                try:
+                    self.dic[i]
+                except:
+                    self.dic[i] = ''
             arq.close()
+        return positiveList
 
-        return list(map(lambda k: (k[0],k[1],'P'), [j for i in positiveList for j in i])) #To separe in sentence -> positiveList
+    def extractTestText(self, pos = '../dataset/testSet/pos', neg = '../dataset/testSet/neg'):
 
-#textExtractor = TextExtractor()
-#print(textExtractor.extractFromDataSet())
+        testText = []
+
+        for fileName in os.listdir(pos):
+            arq = open(pos + '/' + fileName, 'r')
+            testText.append((prePreprocess(arq.read()),'P'))
+
+        for fileName in os.listdir(neg):
+            arq = open(neg + '/' + fileName, 'r')
+            testText.append((prePreprocess(arq.read()),'N'))
+        return testText
+
