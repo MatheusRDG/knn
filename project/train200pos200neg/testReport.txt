@@ -1,0 +1,2179 @@
+For K = 3 using Euclidian Distance:
+ Execution Time: 218.04s
+ Confusion Matrix:
+  +  -
+ + 5  1
+ - 49  45
+ Precision = 83.33%
+ Recall = 9.26%
+ Accuracy = 50.00%
+ F1-Measure = 0.17
+
+For K = 3 using Manhattan Distance:
+ Execution Time: 296.54s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 5 using Euclidian Distance:
+ Execution Time: 486.02s
+ Confusion Matrix:
+  +  -
+ + 1  1
+ - 49  49
+ Precision = 50.00%
+ Recall = 2.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.04
+
+For K = 5 using Manhattan Distance:
+ Execution Time: 565.67s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 7 using Euclidian Distance:
+ Execution Time: 752.13s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 7 using Manhattan Distance:
+ Execution Time: 832.06s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 9 using Euclidian Distance:
+ Execution Time: 1019.95s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 9 using Manhattan Distance:
+ Execution Time: 1101.28s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 11 using Euclidian Distance:
+ Execution Time: 1275.08s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 11 using Manhattan Distance:
+ Execution Time: 1345.98s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 13 using Euclidian Distance:
+ Execution Time: 1512.42s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 13 using Manhattan Distance:
+ Execution Time: 1583.28s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 15 using Euclidian Distance:
+ Execution Time: 1749.78s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 15 using Manhattan Distance:
+ Execution Time: 1820.66s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 17 using Euclidian Distance:
+ Execution Time: 1987.14s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 17 using Manhattan Distance:
+ Execution Time: 2057.94s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 19 using Euclidian Distance:
+ Execution Time: 2224.36s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 19 using Manhattan Distance:
+ Execution Time: 2295.39s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 21 using Euclidian Distance:
+ Execution Time: 2461.93s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 21 using Manhattan Distance:
+ Execution Time: 2532.78s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 23 using Euclidian Distance:
+ Execution Time: 2699.61s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 23 using Manhattan Distance:
+ Execution Time: 2770.45s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 25 using Euclidian Distance:
+ Execution Time: 2937.02s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 25 using Manhattan Distance:
+ Execution Time: 3007.90s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 27 using Euclidian Distance:
+ Execution Time: 3174.49s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 27 using Manhattan Distance:
+ Execution Time: 3245.44s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 29 using Euclidian Distance:
+ Execution Time: 3412.17s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 29 using Manhattan Distance:
+ Execution Time: 3483.15s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 31 using Euclidian Distance:
+ Execution Time: 3649.88s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 31 using Manhattan Distance:
+ Execution Time: 3720.71s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 33 using Euclidian Distance:
+ Execution Time: 3887.26s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 33 using Manhattan Distance:
+ Execution Time: 3958.08s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 35 using Euclidian Distance:
+ Execution Time: 4124.58s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 35 using Manhattan Distance:
+ Execution Time: 4195.40s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 37 using Euclidian Distance:
+ Execution Time: 4361.95s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 37 using Manhattan Distance:
+ Execution Time: 4432.76s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 39 using Euclidian Distance:
+ Execution Time: 4599.32s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 39 using Manhattan Distance:
+ Execution Time: 4670.11s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 41 using Euclidian Distance:
+ Execution Time: 4836.81s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 41 using Manhattan Distance:
+ Execution Time: 4907.70s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 43 using Euclidian Distance:
+ Execution Time: 5074.81s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 43 using Manhattan Distance:
+ Execution Time: 5145.67s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 45 using Euclidian Distance:
+ Execution Time: 5312.75s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 45 using Manhattan Distance:
+ Execution Time: 5383.56s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 47 using Euclidian Distance:
+ Execution Time: 5550.74s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 47 using Manhattan Distance:
+ Execution Time: 5621.58s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 49 using Euclidian Distance:
+ Execution Time: 5788.76s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 49 using Manhattan Distance:
+ Execution Time: 5859.56s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 51 using Euclidian Distance:
+ Execution Time: 6026.83s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 51 using Manhattan Distance:
+ Execution Time: 6097.71s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 53 using Euclidian Distance:
+ Execution Time: 6265.01s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 53 using Manhattan Distance:
+ Execution Time: 6335.75s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 55 using Euclidian Distance:
+ Execution Time: 6502.99s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 55 using Manhattan Distance:
+ Execution Time: 6573.68s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 57 using Euclidian Distance:
+ Execution Time: 6740.97s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 57 using Manhattan Distance:
+ Execution Time: 6811.67s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 59 using Euclidian Distance:
+ Execution Time: 6978.94s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 59 using Manhattan Distance:
+ Execution Time: 7049.61s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 61 using Euclidian Distance:
+ Execution Time: 7217.37s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 61 using Manhattan Distance:
+ Execution Time: 7288.18s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 63 using Euclidian Distance:
+ Execution Time: 7455.56s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 63 using Manhattan Distance:
+ Execution Time: 7526.17s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 65 using Euclidian Distance:
+ Execution Time: 7693.57s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 65 using Manhattan Distance:
+ Execution Time: 7764.22s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 67 using Euclidian Distance:
+ Execution Time: 7931.65s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 67 using Manhattan Distance:
+ Execution Time: 8002.43s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 69 using Euclidian Distance:
+ Execution Time: 8169.66s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 69 using Manhattan Distance:
+ Execution Time: 8240.09s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 71 using Euclidian Distance:
+ Execution Time: 8407.44s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 71 using Manhattan Distance:
+ Execution Time: 8477.99s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 73 using Euclidian Distance:
+ Execution Time: 8645.50s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 73 using Manhattan Distance:
+ Execution Time: 8716.03s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 75 using Euclidian Distance:
+ Execution Time: 8883.63s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 75 using Manhattan Distance:
+ Execution Time: 8954.32s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 77 using Euclidian Distance:
+ Execution Time: 9121.80s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 77 using Manhattan Distance:
+ Execution Time: 9192.38s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 79 using Euclidian Distance:
+ Execution Time: 9359.73s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 79 using Manhattan Distance:
+ Execution Time: 9430.18s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 81 using Euclidian Distance:
+ Execution Time: 9597.56s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 81 using Manhattan Distance:
+ Execution Time: 9668.12s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 83 using Euclidian Distance:
+ Execution Time: 9836.24s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 83 using Manhattan Distance:
+ Execution Time: 9907.21s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 85 using Euclidian Distance:
+ Execution Time: 10080.20s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 85 using Manhattan Distance:
+ Execution Time: 10150.76s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 87 using Euclidian Distance:
+ Execution Time: 10318.27s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 87 using Manhattan Distance:
+ Execution Time: 10388.82s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 89 using Euclidian Distance:
+ Execution Time: 10556.33s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 89 using Manhattan Distance:
+ Execution Time: 10626.80s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 91 using Euclidian Distance:
+ Execution Time: 10794.08s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 91 using Manhattan Distance:
+ Execution Time: 10864.65s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 93 using Euclidian Distance:
+ Execution Time: 11031.73s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 93 using Manhattan Distance:
+ Execution Time: 11102.31s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 95 using Euclidian Distance:
+ Execution Time: 11269.46s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 95 using Manhattan Distance:
+ Execution Time: 11340.07s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 97 using Euclidian Distance:
+ Execution Time: 11507.26s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 97 using Manhattan Distance:
+ Execution Time: 11577.93s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 99 using Euclidian Distance:
+ Execution Time: 11745.00s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 99 using Manhattan Distance:
+ Execution Time: 11815.63s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 101 using Euclidian Distance:
+ Execution Time: 11982.78s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 101 using Manhattan Distance:
+ Execution Time: 12053.54s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 103 using Euclidian Distance:
+ Execution Time: 12220.67s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 103 using Manhattan Distance:
+ Execution Time: 12291.44s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 105 using Euclidian Distance:
+ Execution Time: 12458.77s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 105 using Manhattan Distance:
+ Execution Time: 12529.76s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 107 using Euclidian Distance:
+ Execution Time: 12696.97s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 107 using Manhattan Distance:
+ Execution Time: 12767.91s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 109 using Euclidian Distance:
+ Execution Time: 12935.19s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 109 using Manhattan Distance:
+ Execution Time: 13006.10s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 111 using Euclidian Distance:
+ Execution Time: 13173.47s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 111 using Manhattan Distance:
+ Execution Time: 13244.53s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 113 using Euclidian Distance:
+ Execution Time: 13411.83s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 113 using Manhattan Distance:
+ Execution Time: 13482.73s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 115 using Euclidian Distance:
+ Execution Time: 13649.90s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 115 using Manhattan Distance:
+ Execution Time: 13721.02s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 117 using Euclidian Distance:
+ Execution Time: 13888.32s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 117 using Manhattan Distance:
+ Execution Time: 13959.36s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 119 using Euclidian Distance:
+ Execution Time: 14126.54s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 119 using Manhattan Distance:
+ Execution Time: 14197.56s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 121 using Euclidian Distance:
+ Execution Time: 14364.77s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 121 using Manhattan Distance:
+ Execution Time: 14435.78s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 123 using Euclidian Distance:
+ Execution Time: 14602.87s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 123 using Manhattan Distance:
+ Execution Time: 14673.88s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 125 using Euclidian Distance:
+ Execution Time: 14840.99s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 125 using Manhattan Distance:
+ Execution Time: 14912.03s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 127 using Euclidian Distance:
+ Execution Time: 15079.18s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 127 using Manhattan Distance:
+ Execution Time: 15150.22s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 129 using Euclidian Distance:
+ Execution Time: 15317.28s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 129 using Manhattan Distance:
+ Execution Time: 15388.39s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 131 using Euclidian Distance:
+ Execution Time: 15555.51s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 131 using Manhattan Distance:
+ Execution Time: 15626.51s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 133 using Euclidian Distance:
+ Execution Time: 15793.61s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 133 using Manhattan Distance:
+ Execution Time: 15864.66s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 135 using Euclidian Distance:
+ Execution Time: 16031.47s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 135 using Manhattan Distance:
+ Execution Time: 16102.60s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 137 using Euclidian Distance:
+ Execution Time: 16269.44s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 137 using Manhattan Distance:
+ Execution Time: 16340.70s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 139 using Euclidian Distance:
+ Execution Time: 16507.59s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 139 using Manhattan Distance:
+ Execution Time: 16578.72s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 141 using Euclidian Distance:
+ Execution Time: 16745.95s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 141 using Manhattan Distance:
+ Execution Time: 16817.07s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 143 using Euclidian Distance:
+ Execution Time: 16984.31s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 143 using Manhattan Distance:
+ Execution Time: 17055.46s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 145 using Euclidian Distance:
+ Execution Time: 17222.60s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 145 using Manhattan Distance:
+ Execution Time: 17293.56s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 147 using Euclidian Distance:
+ Execution Time: 17460.78s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 147 using Manhattan Distance:
+ Execution Time: 17531.86s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 149 using Euclidian Distance:
+ Execution Time: 17699.03s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 149 using Manhattan Distance:
+ Execution Time: 17769.96s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 151 using Euclidian Distance:
+ Execution Time: 17937.20s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 151 using Manhattan Distance:
+ Execution Time: 18008.27s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 153 using Euclidian Distance:
+ Execution Time: 18175.46s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 153 using Manhattan Distance:
+ Execution Time: 18246.49s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 155 using Euclidian Distance:
+ Execution Time: 18413.64s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 155 using Manhattan Distance:
+ Execution Time: 18484.59s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 157 using Euclidian Distance:
+ Execution Time: 18651.75s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 157 using Manhattan Distance:
+ Execution Time: 18722.73s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 159 using Euclidian Distance:
+ Execution Time: 18889.95s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 159 using Manhattan Distance:
+ Execution Time: 18960.92s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 161 using Euclidian Distance:
+ Execution Time: 19128.17s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 161 using Manhattan Distance:
+ Execution Time: 19199.10s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 163 using Euclidian Distance:
+ Execution Time: 19366.02s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 163 using Manhattan Distance:
+ Execution Time: 19436.83s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 165 using Euclidian Distance:
+ Execution Time: 19603.69s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 165 using Manhattan Distance:
+ Execution Time: 19674.51s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 167 using Euclidian Distance:
+ Execution Time: 19841.43s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 167 using Manhattan Distance:
+ Execution Time: 19912.16s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 169 using Euclidian Distance:
+ Execution Time: 20079.16s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 169 using Manhattan Distance:
+ Execution Time: 20149.88s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 171 using Euclidian Distance:
+ Execution Time: 20317.00s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 171 using Manhattan Distance:
+ Execution Time: 20387.74s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 173 using Euclidian Distance:
+ Execution Time: 20554.81s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 173 using Manhattan Distance:
+ Execution Time: 20625.45s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 175 using Euclidian Distance:
+ Execution Time: 20792.44s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 175 using Manhattan Distance:
+ Execution Time: 20863.71s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 177 using Euclidian Distance:
+ Execution Time: 21030.73s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 177 using Manhattan Distance:
+ Execution Time: 21101.39s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 179 using Euclidian Distance:
+ Execution Time: 21268.54s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 179 using Manhattan Distance:
+ Execution Time: 21339.11s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 181 using Euclidian Distance:
+ Execution Time: 21506.27s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 181 using Manhattan Distance:
+ Execution Time: 21576.92s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 183 using Euclidian Distance:
+ Execution Time: 21744.15s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 183 using Manhattan Distance:
+ Execution Time: 21814.67s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 185 using Euclidian Distance:
+ Execution Time: 21981.85s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 185 using Manhattan Distance:
+ Execution Time: 22052.32s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 187 using Euclidian Distance:
+ Execution Time: 22219.80s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 187 using Manhattan Distance:
+ Execution Time: 22290.37s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 189 using Euclidian Distance:
+ Execution Time: 22458.10s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 189 using Manhattan Distance:
+ Execution Time: 22528.71s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 191 using Euclidian Distance:
+ Execution Time: 22696.28s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 191 using Manhattan Distance:
+ Execution Time: 22766.92s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 193 using Euclidian Distance:
+ Execution Time: 22934.78s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 193 using Manhattan Distance:
+ Execution Time: 23005.29s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 195 using Euclidian Distance:
+ Execution Time: 23172.95s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 195 using Manhattan Distance:
+ Execution Time: 23243.40s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 197 using Euclidian Distance:
+ Execution Time: 23411.28s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 197 using Manhattan Distance:
+ Execution Time: 23481.71s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 199 using Euclidian Distance:
+ Execution Time: 23649.46s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+For K = 199 using Manhattan Distance:
+ Execution Time: 23719.84s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 50  50
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+Best Parms are k = 3 and distance = Euclidian Distance.
