@@ -18,7 +18,7 @@ def verifyExistentOrNewDataSet ():
         return 0
 
 def verifySaveOrInstantUse ():
-    verify = input('Digite 0 usa-lo apenas nesta execução. ou 1 para salvar o treino. ')
+    verify = input('Digite 0 usa-lo apenas nesta execução ou 1 para salvar o treino. ')
     while verify != '1' and verify != '0':
         print('Valor inválido')
         verify = input('Digite 0 usa-lo apenas nesta execução ou 1 para salvar o treino. ')
@@ -34,8 +34,8 @@ def treinner():
             train.trainDataSet(negativeText='dataset/competition_SA/neg', positiveText='dataset/competition_SA/pos')
             if verifySaveOrInstantUse():
                 train.saveData()
-                return train
-        else:#Existente
+            return train
+        else:
             try:
                 train.loadData()
                 return train

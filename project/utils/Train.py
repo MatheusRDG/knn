@@ -1,5 +1,6 @@
 import pickle
 from project.utils.TextExtractor import TextExtractor
+
 class Train:
     def __init__(self, data = [], allWords = {}):
         self.data = data
@@ -22,7 +23,6 @@ class Train:
 
         negText, posText = textExtractor.extractFromDataSet()
 
-        #print(negText)
         self.allWords = textExtractor.dic
 
         trainFrequencyList = []
@@ -39,7 +39,7 @@ class Train:
                     pass
             trainFrequencyList.append((listTemp,'N'))
 
-        for i in negText:
+        for i in posText:
             listTemp = [0] * lenAllWords
             for j in i:
                 try:

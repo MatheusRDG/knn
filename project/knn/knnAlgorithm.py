@@ -1,16 +1,21 @@
-from project.utils.EuclideanDistance import dist_euclidiana
+from project.utils.Distance import selectDistance
 from project.utils.Train import Train
+
 class Knn:
     def __init__(self, train = Train()):
         self.train = train
 
-    def predict(self, document, k):
+    def predict(self, document, k, distanceMethod):
+        distanceMethod = selectDistance(distanceMethod)
+
         freqListDoc = self.createFrequencyList(document)
+
         distances = []
+
         for i in self.train.data:
-            distances.append((dist_euclidiana(i[0],freqListDoc),i[1]))
+            distances.append((distanceMethod(i[0], freqListDoc), i[1]))
+
         distances.sort()
-        #print(distances)
         n, p = 0, 0
         for i in range(k):
             try:
@@ -20,7 +25,6 @@ class Knn:
                     p+=1
             except IndexError:
                 print('Train lenght is small than k neighbors.')
-        print('positive = %d, negative = %d'%(p,n))
         if p > n:
             return('P')
         else:

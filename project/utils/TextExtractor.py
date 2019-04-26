@@ -1,7 +1,6 @@
 import os
 from project.preprocess.PreProcess import prePreprocess
 
-
 class TextExtractor:
     def __init__(self, negativeText = '../dataset/competition_SA/neg', positiveText = '../dataset/competition_SA/pos'):
         self.negativeText = negativeText
@@ -13,7 +12,6 @@ class TextExtractor:
         return (self.__negativeExtract(),self.__positiveExtract())
 
     def __negativeExtract(self):
-
 
         negativeList = []
 
@@ -28,9 +26,7 @@ class TextExtractor:
                     self.dic[i] = ''
             arq.close()
 
-
         return negativeList
-
 
     def __positiveExtract(self):
 
@@ -59,5 +55,13 @@ class TextExtractor:
         for fileName in os.listdir(neg):
             arq = open(neg + '/' + fileName, 'r')
             testText.append((prePreprocess(arq.read()),'N'))
+
+        return testText
+
+    def extractNewText(self, set = '../dataset/testSet/newSet'):
+        testText = []
+        for fileName in os.listdir(set):
+            arq = open(set + '/' + fileName, 'r')
+            testText.append((prePreprocess(arq.read()),''))
         return testText
 
