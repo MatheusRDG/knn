@@ -74,7 +74,7 @@ def crossValidation(N=10, maxK=11):
                 tp, fp, tn, fn = 0, 0, 0, 0
 
                 for doc in testList:
-
+                    print("Testando documento")
                     res = knn.predict(doc[0], k, distance)
 
                     expectedResult = doc[1]
@@ -91,7 +91,7 @@ def crossValidation(N=10, maxK=11):
                             fn += 1
                         else:
                             tn += 1
-
+                print('Fim teste documento')
                 f = Validation.generateValidationAnalysis(tp, fp, tn, fn)
 
                 documentWriteList = ['Using k = %d and distance = %s: ' % (k, distance)]
