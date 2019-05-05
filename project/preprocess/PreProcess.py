@@ -20,7 +20,7 @@ def prePreprocess(string):
     result = list(map(lambda i: list(map(lambda j: lemmatizer.lemmatize(j),i)),result))
 
     #Stemm
-    stemmer = SnowballStemmer('english')
-    result = list(map(lambda i: list(map(lambda j: stemmer.stem(j), i)), result))
+    #stemmer = SnowballStemmer('english')
+    #result = list(map(lambda i: list(map(lambda j: stemmer.stem(j), i)), result))
 
     return result[0]

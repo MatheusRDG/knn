@@ -12,20 +12,14 @@ def verifyExistentOrNewDataSet ():
     while verify != '1' and verify != '0':
         print('Valor inválido')
         verify = input('Digite 0 para usar o treino existente ou 1 para treinar um novo dataset. ')
-    if verify == '1':
-        return 1
-    else:
-        return 0
+    return(int(verify))
 
 def verifySaveOrInstantUse ():
     verify = input('Digite 0 usa-lo apenas nesta execução ou 1 para salvar o treino. ')
     while verify != '1' and verify != '0':
         print('Valor inválido')
         verify = input('Digite 0 usa-lo apenas nesta execução ou 1 para salvar o treino. ')
-    if verify == '1':
-        return 1
-    else:
-        return 0
+    return(int(verify))
 
 def treinner():
     train = Train()

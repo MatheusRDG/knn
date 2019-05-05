@@ -1,0 +1,52 @@
+Unknow Documents qtd
+PosTest = 5
+NegTest = 5
+Range k (3,100)
+
+For K = 27 using Euclidian Distance:
+ Execution Time: 20.36s
+ Confusion Matrix:
+  +  -
+ + 3  1
+ - 4  2
+ Precision = 75.00%
+ Recall = 42.86%
+ Accuracy = 50.00%
+ F1-Measure = 0.55
+
+---------------------------------------
+
+Using 450 documents
+PosDoc = 450
+NegDoc = 450
+PosTest = 5
+NegTest = 5
+Range k (3, 10)
+
+For K = 3 using Euclidian Distance:
+ Execution Time: 62.78s
+ Confusion Matrix:
+  +  -
+ + 0  0
+ - 5  5
+ Precision = 0.00%
+ Recall = 0.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.00
+
+---------------------------------------
+
+PosDoc = 80
+NegDoc = 80
+PosTest = 20
+NegTest = 20
+For K = 7 using Euclidian Distance:
+ Execution Time: 138.95s
+ Confusion Matrix:
+  +  -
+ + 1  3
+ - 17  19
+ Precision = 25.00%
+ Recall = 5.56%
+ Accuracy = 50.00%
+ F1-Measure = 0.09

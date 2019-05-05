@@ -2,10 +2,12 @@ from project.utils.Distance import selectDistance
 from project.utils.Train import Train
 
 class Knn:
+
     def __init__(self, train = Train()):
         self.train = train
 
     def predict(self, document, k, distanceMethod):
+
         distanceMethod = selectDistance(distanceMethod)
 
         freqListDoc = self.createFrequencyList(document)
@@ -34,9 +36,18 @@ class Knn:
         lenAllWords = len(self.train.allWords)
         listTemp = [0] * lenAllWords
         listAllWords = list(self.train.allWords.keys())
-        for i in range(lenAllWords):
-            listTemp[i] = document.count(listAllWords[i])
+        tempDict = {i[1]: i[0] for i in list(enumerate(listAllWords))}
+        #for i in range(lenAllWords):
+        #    listTemp[i] = document.count(listAllWords[i])
+        for i in document:
+            try:
+                tempDict[i]
+                listTemp[tempDict[i]]+=1
+            except:
+                pass
         return listTemp
+
+
 
 
 

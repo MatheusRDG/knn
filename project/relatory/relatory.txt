@@ -1,0 +1,39 @@
+Positive train = 32
+Negative train = 32
+Positive text = 5
+Negative text = 5
+
+For K = 5 using Euclidian Distance:
+ Execution Time: 10.32s
+ Confusion Matrix:
+  +  -
+ + 5  5
+ - 0  0
+ Precision = 50.00%
+ Recall = 100.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.67
+
+Best Parms are k = 5 and distance = Euclidian Distance.
+
+---------------------------------------------------------
+
+Positive train = 80
+Negative train = 80
+Positive text = 20
+Negative text = 20
+
+For K = 3 using Euclidian Distance:
+ Execution Time: 58.66s
+ Confusion Matrix:
+  +  -
+ + 1  1
+ - 19  19
+ Precision = 50.00%
+ Recall = 5.00%
+ Accuracy = 50.00%
+ F1-Measure = 0.09
+
+Best Parms are k = 3 and distance = Euclidian Distance.
+
+---------------------------------------------------------

@@ -1,0 +1,4 @@
+
+15:32:49 best K = 0 and best distance = 0.
+
+17:34:57 best K = 0 and best distance = 0.

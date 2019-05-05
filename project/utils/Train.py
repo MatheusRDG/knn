@@ -29,24 +29,18 @@ class Train:
         listAllWords = list(self.allWords.keys())
         lenAllWords = len(listAllWords)
 
+        tempDict = {i[1]: i[0] for i in list(enumerate(listAllWords))}
+
         for i in negText:
             listTemp = [0] * lenAllWords
             for j in i:
-                try:
-                    self.allWords[j]
-                    listTemp[listAllWords.index(j)] = i.count(j)
-                except:
-                    pass
+                listTemp[tempDict[j]]+=1
             trainFrequencyList.append((listTemp,'N'))
 
         for i in posText:
             listTemp = [0] * lenAllWords
             for j in i:
-                try:
-                    self.allWords[j]
-                    listTemp[listAllWords.index(j)] = i.count(j)
-                except:
-                    pass
+                listTemp[tempDict[j]] += 1
             trainFrequencyList.append((listTemp,'P'))
 
         self.data = trainFrequencyList

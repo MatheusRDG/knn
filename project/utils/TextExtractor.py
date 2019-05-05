@@ -42,6 +42,7 @@ class TextExtractor:
                 except:
                     self.dic[i] = ''
             arq.close()
+
         return positiveList
 
     def extractTestText(self, pos = '../dataset/testSet/pos', neg = '../dataset/testSet/neg'):
@@ -51,17 +52,28 @@ class TextExtractor:
         for fileName in os.listdir(pos):
             arq = open(pos + '/' + fileName, 'r')
             testText.append((prePreprocess(arq.read()),'P'))
+            arq.close()
 
         for fileName in os.listdir(neg):
             arq = open(neg + '/' + fileName, 'r')
             testText.append((prePreprocess(arq.read()),'N'))
+            arq.close()
 
         return testText
 
     def extractNewText(self, set = '../dataset/testSet/newSet'):
+
         testText = []
+
         for fileName in os.listdir(set):
             arq = open(set + '/' + fileName, 'r')
             testText.append((prePreprocess(arq.read()),''))
+            arq.close()
+
         return testText
+
+#text = TextExtractor()
+#testList = text.extractTestText()
+#for i in testList:
+#    print(i)
 
